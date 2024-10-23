@@ -3,15 +3,20 @@
 To implement a simple hash function in C to convert a string into a fixed-size hash value using basic hashing techniques.
 
 ## ALGORITHM:
-Step 1: Initialize a hash value (e.g., to 0 or a large prime number).
+### Step 1: 
+Initialize a hash value (e.g., to 0 or a large prime number).
 
-Step 2: For each character in the input string , Multiply the current hash value by a constant (e.g., a prime number).
+### Step 2:
+For each character in the input string , Multiply the current hash value by a constant (e.g., a prime number).
 
-Step 3: Add the ASCII value of the character to the hash and apply a modulo operation to keep the hash value within bounds if necessary.
+### Step 3: 
+Add the ASCII value of the character to the hash and apply a modulo operation to keep the hash value within bounds if necessary.
 
-Step 4: Return the computed hash value.
+### Step 4: 
+Return the computed hash value.
 
-Step 5: Test the hash function with different strings to observe how the output varies.
+### Step 5: 
+Test the hash function with different strings to observe how the output varies.
 
 ## PROGRAM :
 ```c
